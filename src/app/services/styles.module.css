@@ -1,0 +1,58 @@
+/* Container for the services section */
+.servicesContainer {
+    display: flex;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .servicesContent {
+    width: 50%;
+  }
+  
+  .servicesIntro {
+    margin-bottom: 20px;
+  }
+  
+  .servicesContentHeader {
+    padding: 50px 0px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #535353;
+  }
+  
+  .servicesContentBody {
+    font-size: 2rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .serviceDetails ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .serviceItem {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #007acc;
+    transition: color 0.3s;
+  }
+  
+  .serviceItem:hover,
+  .serviceItemActive {
+    color: #003366;
+  }
+  
+  .serviceItem p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .servicesChart {
+    width: 50%;
+    height: auto;
+    position: relative;
+    border-radius: 8px;
+  }
+  
